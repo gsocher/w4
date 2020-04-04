@@ -28,7 +28,7 @@ Extend your timer app or start with the code provided in this repository.
 
  Screenshot of the starter code in the repository:
 <p align="center">
-  <img width="337" height="600" src="https://github.com/gsocher/w3/blob/master/doc/timers_example.png">
+  <img width="337" height="600" src="https://github.com/gsocher/w4/blob/master/doc/timers_example.png">
 </p>
 
 ## Continuous Deployment to Github Releases with Travis-CI
