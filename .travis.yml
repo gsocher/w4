@@ -1,5 +1,7 @@
 language: android
 jdk: oraclejdk8
+dist: xenial
+os: linux
 env:
  global:
     - ANDROID_API_LEVEL=29
@@ -27,7 +29,7 @@ before_script:
 - chmod +x gradlew
 
 script:
-- ./gradlew assembleDebug
+- ./gradlew clean build
 
 deploy:
   provider: releases
