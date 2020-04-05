@@ -15,8 +15,8 @@ or read [06.1, 06.2, and 06.3](https://codelabs.developers.google.com/android-ko
 
 ## Assignment
 
-Extend your timer app to **timers** (multiple timers). In your timer app last week you have one timer and you need to change your start time depending on what you want to time.
-This week you use a room database to store your favorite timers (e.g. a timer for brushing your teeth, a timer for cooking hard boiled eggs, a timer for cooking spaghetti, etc.). No more changing start times, just select the appropriate timer from your list of timers. 
+Extend your timer app to **timers** (multiple timers). In your timer app last week, you have a single timer and you need to change your start time depending on what you want to do.
+This week you use a room database to store your favorite timers (e.g. a timer for brushing your teeth, a timer for cooking hard-boiled easter eggs, a timer for cooking spaghetti, etc.). No more changing start times, just select the appropriate timer from your list of timers. 
 
 Extend your timer app or start with the code provided in this repository.
 
