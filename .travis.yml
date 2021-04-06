@@ -36,7 +36,8 @@ deploy:
   cleanup: true
   draft: true
   target_commitish: $TRAVIS_COMMIT
-
+  on:
+     tags: true
 
 after_deploy:
   - rm -rf $TRAVIS_BUILD_DIR/app/build/outputs
