@@ -23,6 +23,14 @@ before_script:
 script:
 - ./gradlew assembleDebug
 
+before_deploy:
+  # Set up git user name and tag this commit
+  - git config --local user.name "someName"
+  - git config --local user.email "someName@users.noreply.github.com"
+  - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
+  - git tag $TRAVIS_TAG -a -m "Generated tag from TravisCI for build $TRAVIS_BUILD_NUMBER"
+  - echo $GITHUB_TOKEN
+
 deploy:
   provider: releases
   token: $GITHUB_API_KEY
