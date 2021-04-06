@@ -1,6 +1,4 @@
 language: android
-jdk: oraclejdk8
-dist: xenial
 os: linux
 
 android:
