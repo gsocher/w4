@@ -1,4 +1,5 @@
 language: android
+dist: xenial
 os: linux
 
 android:
