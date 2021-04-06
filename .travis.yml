@@ -33,7 +33,6 @@ deploy:
   release_notes: Automatic build of $TRAVIS_BRANCH ($TRAVIS_COMMIT) built by Travis CI on $(date +'%F %T %Z').
   prerelease: true
   overwrite: true
-  cleanup: true
   draft: true
   target_commitish: $TRAVIS_COMMIT
   on:
